@@ -33,7 +33,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001618068091"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Mahi_harsh")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5715588560").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5897579715").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -43,14 +43,14 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Jankarikiduniya/AlexaMusic",
+    "https://github.com/Mahiharshi/king-music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None)
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/alone_support")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/alone_support")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
@@ -68,7 +68,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", None)
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Mahiharshi/king-music")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -86,7 +86,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQAMLiQqp7j8D7dyTHhCC8Y3cxk-P0vUb6RCOTLXuXeZvLudWVoX3Rsxn_nVlqrypKVpnlvJx4m8u1jmmVayEojJ6XpM0ceNaiCLC9NLJj5UCo3TRju1RoIQK3lusM03g6CXKws8mGblYI2QboVPxHdpTyyMNBlmG548yc5G5BUI37JN05JB6c6lBQEMnEqbEd86bulZRCAIeCrO7Y6uz_PKWAphgKADBGw1ka3_egRxqoqaqVrO8ZFGsvNbGFB15FeqcAgdHUwJwFKiaI2QGvmAJRRarDAfGBj-0PUhVTvvesJT_MLRvwqWiGgFaRLlv60Y11NtrlyjO7BAV9yRC-kZAAAAAVSs9dAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -105,7 +105,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/ed1e4016b2209a6d219cb.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/3903554e43100c3baf562.jpg"
 )
 
 PING_IMG_URL = getenv(
