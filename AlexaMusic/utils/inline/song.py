@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2021-2022 by Alexa_Help@Github, < https://github.com/Jankarikiduniya >.
+# Copyright (C) 2021-2022 by alone_support@Github, < https://github.com/Jankarikiduniya >.
 # A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
 
-# Kanged By © @Dr_Asad_Ali
-# Rocks © @Shayri_Music_Lovers
-# Owner Asad Ali
-# Harshit Sharma
+# Kanged By © @alone_support
+# Rocks © @alone_support
+# Owner harsh op 
+# harsh op
 # All rights reserved. © Alisha © Alexa © Yukki
 
 
@@ -27,7 +27,7 @@ def song_markup(_, vidid):
         [
             InlineKeyboardButton(
                 text="• sᴜᴩᴩᴏʀᴛ •",
-                url="https://t.me/DevilsHeavenMF",
+                url="https://t.me/alone_support",
             ),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
