@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2021-2022 by Alexa_Help@Github, < https://github.com/Jankarikiduniya >.
+# Copyright (C) 2021-2022 by alone_support@Github, < https://github.com/Jankarikiduniya >.
 # A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
 
-# Kanged By © @Dr_Assad_Ali
-# Rocks © @Shayri_Music_Lovers
-# Owner Asad Ali
-# Harshit Sharma
+# Kanged By © @alone_support
+# Rocks © @alone_support
+# Owner harsh op 
+# harsh op 
 # All rights reserved. © Alisha © Alexa © Yukki
 
 
@@ -18,26 +18,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "10181640"))
+API_HASH = getenv("API_HASH", "41d46ffe251fdf67035b24a05af628ec")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5804263172:AAGyANz9xElua2Pj1Qzmuu_fdx56nHGNtrA")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001618068091"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Mahi_harsh")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5715588560").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID")
+BOT_ID = getenv("BOT_ID", "5804263172")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
